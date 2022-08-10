@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(22, 22, 77);
+    min-height: 100vh;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
+
+.visor{
+    width: 330px;
+    height: 50px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.teclado{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:3px;
+    padding: 2px;
+}
+
+.botao{
+    height: 60px;
+    width: 80px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+}
+
+.botao:active{
+    background-color: gray;
+}
+
+.ope{
+    background-color: rgb(240, 160, 9);
+}
